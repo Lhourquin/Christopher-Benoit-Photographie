@@ -1,11 +1,47 @@
+@media (min-width: 481px) and (max-width: 900px) {
+  body{
+  display: grid;
+  grid-template-rows: 20vh 1fr 20vh;
+  grid-template-columns: 1fr;
+  grid-template-areas: "head head"
+                       "main main"
+                       "footer footer";
+  }
+
+  header {
+    grid-area: head;
+
+  }
+
+  main{
+  grid-area: main;
+  }
+  
+  footer{
+  grid-area: footer;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 900px) {
 body {
   display: grid;
   grid-template-areas: "head main"
                        "head footer";
+  grid-template-columns: 25% 1fr;
 }
 
 header {
   grid-area: head;
 }
-
+}
 

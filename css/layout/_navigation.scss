@@ -1,14 +1,22 @@
 
-.header-nav{ display: flex;
+@media (min-width: 900px) {
+nav {
+  background-color: #9DBEBB;
+}
+
+.header-nav{ 
+  display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
+  line-height: 10vh;
   h1{ 
     font-family: 'Parisienne', cursive;
     color: blue; 
+    font-size: 2vw;
   }
   a{
     color: red;
-    padding: 10% 0 10% 0;
   }
 }
 
@@ -41,6 +49,6 @@
 
 }
 
-
+}
 
 
