@@ -1,7 +1,7 @@
 
 @media (min-width: 900px) {
 nav {
-  background-color: #9DBEBB;
+  margin: 2vw;
 }
 
 .header-nav{ 
@@ -12,11 +12,12 @@ nav {
   line-height: 10vh;
   h1{ 
     font-family: 'Parisienne', cursive;
-    color: blue; 
-    font-size: 2vw;
+    color:#e2e0d0; 
+    font-size: 4vw;
   }
   a{
-    color: red;
+    color: #e2e0d0;
+    font-size: 2vw;
   }
 }
 
@@ -24,15 +25,19 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr; 
+  justify-content: center;
+  margin: 10vw 1vw 1vw 1vw;
   .figure-nav{
-    height: 20%;
-    width: 20%;
     grid-column: 2;
-    padding: 10%;
+    padding: 9%;
+    color: #e2e0d0;
   }
 
   .nav__footer-nav--a-phone{
-    grid-column: 4;
+    grid-column: 3 / 6;
+    text-align:center;
+    font-size: 1.3vw;
+    margin-top:10%;
   }
   .nav__footer-nav--a-facebook{
     grid-column: 1;

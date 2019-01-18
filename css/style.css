@@ -31,6 +31,10 @@
 
   header {
     grid-area: head; } }
+footer {
+  text-align: center;
+  background-color: #F4BCBC; }
+
 @media (min-width: 481px) and (max-width: 900px) {
   body {
     display: grid;
@@ -56,10 +60,11 @@
     grid-area: head; } }
 @media (min-width: 900px) {
   header {
-    height: 100vh; } }
+    height: 100vh;
+    background-color: #9DBEBB; } }
 @media (min-width: 900px) {
   nav {
-    background-color: #9DBEBB; }
+    margin: 2vw; }
 
   .header-nav {
     display: flex;
@@ -69,22 +74,27 @@
     line-height: 10vh; }
     .header-nav h1 {
       font-family: 'Parisienne', cursive;
-      color: blue;
-      font-size: 2vw; }
+      color: #e2e0d0;
+      font-size: 4vw; }
     .header-nav a {
-      color: red; }
+      color: #e2e0d0;
+      font-size: 2vw; }
 
   .footer-nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr; }
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    margin: 10vw 1vw 1vw 1vw; }
     .footer-nav .figure-nav {
-      height: 20%;
-      width: 20%;
       grid-column: 2;
-      padding: 10%; }
+      padding: 9%;
+      color: #e2e0d0; }
     .footer-nav .nav__footer-nav--a-phone {
-      grid-column: 4; }
+      grid-column: 3 / 6;
+      text-align: center;
+      font-size: 1.3vw;
+      margin-top: 10%; }
     .footer-nav .nav__footer-nav--a-facebook {
       grid-column: 1;
       grid-row: 2; }
@@ -94,5 +104,9 @@
     .footer-nav .nav__footer-nav--a-twitter {
       grid-column: 5;
       grid-row: 2; } }
+section {
+  background-image: url(../../img/header-index.jpg);
+  background-size: cover;
+  height: 100vh; }
 
 /*# sourceMappingURL=style.css.map */
