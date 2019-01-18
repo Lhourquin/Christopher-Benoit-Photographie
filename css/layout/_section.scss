@@ -2,4 +2,6 @@ section {
   background-image: url(../../img/header-index.jpg);
   background-size: cover;
   height: 100vh;
+  background-origin: border-box;
+  background-repeat: no-repeat;
 }

@@ -60,7 +60,6 @@ footer {
     grid-area: head; } }
 @media (min-width: 900px) {
   header {
-    height: 100vh;
     background-color: #9DBEBB; } }
 @media (min-width: 900px) {
   nav {
@@ -107,6 +106,8 @@ footer {
 section {
   background-image: url(../../img/header-index.jpg);
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  background-origin: border-box;
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=style.css.map */
