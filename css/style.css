@@ -65,42 +65,42 @@ footer {
   nav {
     margin: 2vw; }
 
-  .header-nav {
+  .nav-header {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     line-height: 10vh; }
-    .header-nav h1 {
+    .nav-header h1 {
       font-family: 'Parisienne', cursive;
       color: #e2e0d0;
       font-size: 4vw; }
-    .header-nav a {
+    .nav-header a {
       color: #e2e0d0;
       font-size: 2vw; }
 
-  .footer-nav {
+  .nav-footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-content: center;
     margin: 10vw 1vw 1vw 1vw; }
-    .footer-nav .figure-nav {
+    .nav-footer .nav-footer__figure {
       grid-column: 2;
       padding: 9%;
       color: #e2e0d0; }
-    .footer-nav .nav__footer-nav--a-phone {
+    .nav-footer .nav-footer__a-phone {
       grid-column: 3 / 6;
       text-align: center;
       font-size: 1.3vw;
       margin-top: 10%; }
-    .footer-nav .nav__footer-nav--a-facebook {
+    .nav-footer .nav-footer__a-facebook {
       grid-column: 1;
       grid-row: 2; }
-    .footer-nav .nav__footer-nav--a-insta {
+    .nav-footer .nav-footer__a-insta {
       grid-column: 3;
       grid-row: 2; }
-    .footer-nav .nav__footer-nav--a-twitter {
+    .nav-footer .nav-footer__a-twitter {
       grid-column: 5;
       grid-row: 2; } }
 section {
