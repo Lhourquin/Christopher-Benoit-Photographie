@@ -40,11 +40,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
   }
 .article-index__figure:nth-child(1)  {
   grid-column:span 3;
   grid-row: 1;
-  object-fit: cover;
 
   }
   .article-index__figure:nth-child(2) {
