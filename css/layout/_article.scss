@@ -1,0 +1,19 @@
+@import '../abstract/_variables.scss';
+
+@media (min-width: 900px)  {
+  .article-index{
+  background-color: $pink;
+  height: 100vh;
+ }
+}
+
+@media (min-width: 481px) and (max-width: 899px) {
+  
+
+}
+
+@media (min-width: 320px) and (max-width: 480px)  {
+  
+
+
+}
