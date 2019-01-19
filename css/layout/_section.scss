@@ -1,7 +1,26 @@
-section {
+@media (min-width: 900px){
+.section-index {
   background-image: url(../../img/header-index.jpg);
   background-size: cover;
   height: 100vh;
   background-origin: border-box;
   background-repeat: no-repeat;
+}
+
+}
+
+
+@media (min-width: 481px) and (max-width: 899px)  {
+  
+
+
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+
+
 }

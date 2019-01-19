@@ -103,11 +103,12 @@ footer {
     .nav-footer .nav-footer__a-twitter {
       grid-column: 5;
       grid-row: 2; } }
-section {
-  background-image: url(../../img/header-index.jpg);
-  background-size: cover;
-  height: 100vh;
-  background-origin: border-box;
-  background-repeat: no-repeat; }
+@media (min-width: 900px) {
+  .section-index {
+    background-image: url(../../img/header-index.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-origin: border-box;
+    background-repeat: no-repeat; } }
 
 /*# sourceMappingURL=style.css.map */

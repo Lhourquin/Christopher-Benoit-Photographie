@@ -1,3 +1,5 @@
+@import '../abstract/_variables.scss';
+
 @media (min-width: 481px) and (max-width: 767px){
 header {
 
@@ -8,6 +10,6 @@ header {
 @media (min-width: 900px){
   
   header{
-  background-color: #9DBEBB;
+  background-color: $blue;
   }
 }
