@@ -1,7 +1,16 @@
+@media (min-width: 481px) and (max-width: 899px) {
+  nav{
+  display: none;
+  }
+  
+
+}
+
 
 @media (min-width: 900px) {
 nav {
-  margin: 2vw;
+  margin-top: 13vw;
+  margin-left:2vw;
   position: fixed;
   width: 20vw;
 }
@@ -12,11 +21,6 @@ nav {
   text-align: center;
   justify-content: center;
   line-height: 12vh;
-  h1{ 
-    font-family: 'Parisienne', cursive;
-    color:#e2e0d0; 
-    font-size: 4vw;
-  }
   a{
     color: #e2e0d0;
     font-size: 2vw;
