@@ -10,7 +10,14 @@
 
   header {
     grid-area: head;
-
+    display: grid;
+    grid-template-areas: "h1 web";
+    h1{
+    grid-area: h1;
+    }
+    .web-font{
+    grid-area: web;
+    }
   }
 
   main{

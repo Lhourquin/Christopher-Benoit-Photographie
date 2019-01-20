@@ -16,7 +16,13 @@
     grid-template-areas: "head head" "main main" "footer footer"; }
 
   header {
-    grid-area: head; }
+    grid-area: head;
+    display: grid;
+    grid-template-areas: "h1 web"; }
+    header h1 {
+      grid-area: h1; }
+    header .web-font {
+      grid-area: web; }
 
   main {
     grid-area: main; }
@@ -127,7 +133,13 @@ footer {
     grid-template-areas: "head head" "main main" "footer footer"; }
 
   header {
-    grid-area: head; }
+    grid-area: head;
+    display: grid;
+    grid-template-areas: "h1 web"; }
+    header h1 {
+      grid-area: h1; }
+    header .web-font {
+      grid-area: web; }
 
   main {
     grid-area: main; }
@@ -226,7 +238,7 @@ footer {
 
   .article-index__figure:nth-child(10) {
     grid-column: 1 / span 3; } }
-@media (min-width: 481px) and (max-width: 899) {
+@media (min-width: 481px) and (max-width: 899px) {
   header {
     background-color: #F4BCBC; }
     header h1 {
