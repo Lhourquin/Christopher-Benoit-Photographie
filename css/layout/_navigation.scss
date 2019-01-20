@@ -11,7 +11,7 @@ nav {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  line-height: 10vh;
+  line-height: 12vh;
   h1{ 
     font-family: 'Parisienne', cursive;
     color:#e2e0d0; 
@@ -28,7 +28,7 @@ nav {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr; 
   justify-content: center;
-  margin: 10vw 1vw 1vw 1vw;
+  margin: 3vw 1vw 1vw 1vw;
   .nav-footer__figure{
     grid-column: 2;
     padding: 9%;
