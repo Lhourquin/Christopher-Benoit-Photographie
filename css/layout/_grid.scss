@@ -198,6 +198,41 @@ grid-column: 1 / span 2;
   }
 
 }
+   .section-prestation  {
+     display: grid;
+     grid-template-rows: repeat(10,1fr);
+     grid-template-columns: repeat(9,1fr);
+    h1{
+    grid-row: 2;
+    grid-column: 3 / span 5;
+    }
+    h3:nth-child(2) {
+      grid-row: 4;
+      grid-column: 3 / span 2;
+    }
+    figure:nth-child(3){
+     grid-row: 5 / span 2;
+     grid-column: 1 / span 7;
+    }
+    h3:nth-child(4) {
+      grid-row: 8;
+      grid-column: 2;
+    }
+    figure:nth-child(5) {
+      grid-row: 9 / span 2;
+      grid-column: 1 / span 3;
+    }
+    h3:nth-child(6) {
+      grid-row: 8;
+      grid-column: 6;
+    }
+    figure:nth-child(7) {
+      grid-row: 9 / span 2;
+      grid-column: 5 / span 3;
+    }
+   }
+
+
 }
 
 
