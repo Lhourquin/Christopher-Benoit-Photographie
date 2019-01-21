@@ -355,6 +355,12 @@ grid-column: 1 / span 2;
     }
    }
 
+   .section-a-propos {
+     display: grid;
+     grid-template-columns: repeat(12,1fr);
+     grid-template-rows: repeat(12,20%);
+
+   }
 
 }
 
