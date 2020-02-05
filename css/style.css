@@ -54,6 +54,20 @@ p {
     max-width: 70%;
     padding: 0 4px; }
 
+nav {
+  display: flex;
+  flex-direction: column; }
+  nav .nav-header {
+    display: flex;
+    flex-direction: column; }
+  nav .nav-footer {
+    display: flex;
+    flex-direction: column; }
+    nav .nav-footer .nav-footer__div--phone {
+      display: flex; }
+    nav .nav-footer .nav-footer__div--network {
+      display: flex; }
+
 .article-index__img {
   max-width: 100%;
   display: block;
