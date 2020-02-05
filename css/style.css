@@ -86,4 +86,12 @@ nav {
   height: auto;
   margin-top: 8px; }
 
+.section-index {
+  height: 100vh;
+  background-image: url(../../img/header-index.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; }
+
 /*# sourceMappingURL=style.css.map */

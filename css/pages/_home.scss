@@ -1,1 +1,12 @@
 //Home specific styles
+.section-index{
+    height: 100vh;
+    background: {
+        image:url(../../img/header-index.jpg);
+        repeat: no-repeat;
+        position: center center;
+        attachment:fixed;
+        size:cover;
+        
+    }
+}
