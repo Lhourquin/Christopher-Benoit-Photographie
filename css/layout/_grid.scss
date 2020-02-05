@@ -21,3 +21,14 @@
         padding: 0 4px;
     }
 }
+//about us grid
+
+.section-a-propos_div--row{
+    display: flex;
+    flex-direction: column;
+    .section-a-propos_div--row_div--column{
+        display: flex;
+        max-width: 50%;
+        padding: 0 4px;
+    }
+}

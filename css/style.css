@@ -38,6 +38,14 @@ p {
     max-width: 25%;
     padding: 0 4px; }
 
+.section-a-propos_div--row {
+  display: flex;
+  flex-direction: column; }
+  .section-a-propos_div--row .section-a-propos_div--row_div--column {
+    display: flex;
+    max-width: 50%;
+    padding: 0 4px; }
+
 .article-index__img {
   max-width: 100%;
   display: block;
@@ -45,6 +53,12 @@ p {
   margin-top: 8px; }
 
 .section-prestation__img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin-top: 8px; }
+
+.section-a-propos__img {
   max-width: 100%;
   display: block;
   height: auto;
