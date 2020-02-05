@@ -31,7 +31,20 @@ p {
     max-width: 25%;
     padding: 0 4px; }
 
+.section-prestation_div--row {
+  display: flex;
+  justify-content: space-between; }
+  .section-prestation_div--row .section-prestation_div--row_div--column {
+    max-width: 25%;
+    padding: 0 4px; }
+
 .article-index__img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin-top: 8px; }
+
+.section-prestation__img {
   max-width: 100%;
   display: block;
   height: auto;

@@ -11,3 +11,13 @@
         padding: 0 4px;
     }
 }
+
+//prstation grid page
+.section-prestation_div--row{
+    display: flex;
+    justify-content: space-between;
+    .section-prestation_div--row_div--column{
+        max-width: 25%;
+        padding: 0 4px;
+    }
+}
