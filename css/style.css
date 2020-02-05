@@ -34,6 +34,7 @@ p {
 .article-index__img {
   max-width: 100%;
   display: block;
-  height: auto; }
+  height: auto;
+  margin-top: 8px; }
 
 /*# sourceMappingURL=style.css.map */
