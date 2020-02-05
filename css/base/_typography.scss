@@ -1,0 +1,17 @@
+//Typography rules
+@import './../abstract/variables';
+body{
+    font-size: 1rem;
+}
+
+h1{
+    font-family: $font-logo;
+    font-size: 3rem;
+}
+.header__a__h2--logo{
+    font-family: $font-logo;
+    font-size: 1.5rem;
+}
+p{
+    font-size: 0.8rem;
+}
