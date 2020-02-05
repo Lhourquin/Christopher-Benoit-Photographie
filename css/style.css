@@ -22,6 +22,13 @@ h1 {
 p {
   font-size: 0.8rem; }
 
+.body--row {
+  display: flex; }
+  .body--row .body--row__header--column {
+    width: 25%; }
+  .body--row .body--row__div--main--column {
+    width: 75%; }
+
 .article-index--row {
   display: flex;
   flex-wrap: wrap;
@@ -43,7 +50,8 @@ p {
   flex-direction: column; }
   .section-a-propos_div--row .section-a-propos_div--row_div--column {
     display: flex;
-    max-width: 50%;
+    flex-direction: row-reverse;
+    max-width: 70%;
     padding: 0 4px; }
 
 .article-index__img {

@@ -1,4 +1,14 @@
 //GRID
+//grid for body
+.body--row{
+    display: flex;
+    .body--row__header--column{
+        width: 25%;
+    }
+    .body--row__div--main--column{
+        width: 75%;
+    }
+}
 
 //gallery img home page
 .article-index--row{
@@ -28,7 +38,8 @@
     flex-direction: column;
     .section-a-propos_div--row_div--column{
         display: flex;
-        max-width: 50%;
+        flex-direction: row-reverse;
+        max-width: 70%;
         padding: 0 4px;
     }
 }
