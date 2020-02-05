@@ -787,8 +787,8 @@ footer {
   display: block; }
 
 .nav-footer__img {
-  width: 100%;
-  object-fit: contain; }
+  font-size: 7vw;
+  color: black; }
 
 .section-a-propos__img {
   height: 100%;
