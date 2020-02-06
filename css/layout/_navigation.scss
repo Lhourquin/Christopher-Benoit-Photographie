@@ -1,19 +1,40 @@
 //NAVIGATION
 nav{
+    width: 25%;
+    position:fixed;
     display: flex;
     flex-direction: column;
+    height: 600px;
+    justify-content: space-around;
+    .header__a__h2--logo{
+        padding: 20px;
+    }
     .nav-header{
         display: flex;
         flex-direction: column;
+        text-align: center;
+        height: 80em;
+        a{
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
     }
     .nav-footer{
         display: flex;
         flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+
+        height: 40em;
         .nav-footer__div--phone{
             display: flex;
+            justify-content: space-evenly;
+
         }
         .nav-footer__div--network{
             display: flex;
+            justify-content: space-evenly;
+
         }
     }
 }
