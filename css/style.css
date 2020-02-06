@@ -136,6 +136,10 @@ form {
     height: 40px;
     cursor: pointer; }
 
+footer {
+  text-align: center;
+  padding: 10px; }
+
 .article-index__img {
   max-width: 100%;
   display: block;
