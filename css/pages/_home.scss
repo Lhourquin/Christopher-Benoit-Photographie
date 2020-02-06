@@ -1,5 +1,7 @@
 //Home specific styles
 .section-index{
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     background: {
         image:url(../../img/header-index.jpg);

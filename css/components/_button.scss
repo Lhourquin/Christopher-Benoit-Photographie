@@ -1,1 +1,37 @@
 //Buttons
+//home page
+button{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 15rem;
+    align-self: center;
+    color: white;
+    transition: 0.2s;
+}
+/*.arrow{
+    min-width: 15rem;
+    background: #FE5F55;
+	&:hover {
+		background: darken(#FE5F55, 10%);
+	}
+	&:active,
+	&:focus {
+		background: darken(#FE5F55, 30%);
+	}
+	&:after {
+		content: "\f0da";
+	}
+	&:hover:after {
+		-webkit-animation: bounceright .3s alternate ease infinite;
+		animation: bounceright .3s alternate ease infinite;
+    }
+    @keyframes bounceright {
+        from { transform: translateX(0); }
+        to   { transform: translateX(3px); }
+    }
+    @-webkit-keyframes bounceright {
+        from { -webkit-transform: translateX(0); }
+        to   { -webkit-transform: translateX(3px); }
+    }
+}*/

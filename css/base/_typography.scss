@@ -1,5 +1,6 @@
 //Typography rules
 @import './../abstract/variables';
+//general
 body{
     font-size: 1rem;
 }
@@ -12,6 +13,28 @@ h1{
     font-family: $font-logo;
     font-size: 1.5rem;
 }
+
 p{
     font-size: 0.8rem;
+}
+//home page 
+.section-index_h1{
+    font-size: 3.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+.section-index_p{
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding:5px;
+}
+.section-index_button_a{
+  color: white;
+  display: flex;
+    justify-content: center;
+    padding:5px;
 }
