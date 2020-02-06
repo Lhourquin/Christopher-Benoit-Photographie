@@ -12,6 +12,7 @@ body {
   font-size: 1rem; }
 
 h1 {
+  text-align: center;
   font-family: "Parisienne", cursive;
   font-size: 3rem; }
 
@@ -87,6 +88,23 @@ nav {
     nav .nav-footer .nav-footer__div--network {
       display: flex; }
 
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 600px;
+  width: 750px;
+  align-self: center; }
+  form #nom, form #prenom, form #mail {
+    border: 1px solid black;
+    height: 35px; }
+  form #message {
+    border: 1px solid black;
+    height: 200px; }
+  form #submit {
+    height: 40px;
+    cursor: pointer; }
+
 .article-index__img {
   max-width: 100%;
   display: block;
@@ -149,5 +167,10 @@ button {
   background-position: center center;
   background-attachment: fixed;
   background-size: cover; }
+
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
 /*# sourceMappingURL=style.css.map */
