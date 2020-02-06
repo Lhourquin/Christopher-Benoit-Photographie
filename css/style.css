@@ -20,6 +20,9 @@ h1 {
   font-family: "Parisienne", cursive;
   font-size: 1.5rem; }
 
+h3 {
+  font-size: 1.3rem; }
+
 p {
   font-size: 0.8rem; }
 
@@ -62,8 +65,8 @@ p {
   display: flex;
   justify-content: space-between; }
   .section-prestation_div--row .section-prestation_div--row_div--column {
-    max-width: 25%;
-    padding: 0 4px; }
+    max-width: 32%;
+    padding: 150px 4px 150px 4px; }
 
 .section-a-propos_div--row {
   display: flex;
@@ -184,5 +187,15 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
+
+.section-prestation {
+  display: flex;
+  flex-direction: column;
+  height: 900px; }
+  .section-prestation h3 {
+    text-align: center; }
+  .section-prestation p {
+    padding-top: 4px;
+    text-align: justify; }
 
 /*# sourceMappingURL=style.css.map */

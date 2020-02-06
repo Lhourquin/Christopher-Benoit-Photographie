@@ -1,1 +1,13 @@
 //Prestation specific styles
+.section-prestation{
+    display:flex;
+    flex-direction: column;
+    height: 900px;
+    h3{
+        text-align: center;
+    }
+    p{
+        padding-top: 4px;
+        text-align: justify;
+    }
+}
