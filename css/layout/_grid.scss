@@ -35,10 +35,24 @@
 .section-a-propos_div--row{
     display: flex;
     flex-direction: column;
-    .section-a-propos_div--row_div--column{
+    justify-content: space-between;
+    height: 1000px;
+    .section-a-propos_div--row_div--column-1{
+        display: flex;
+        p{
+            padding: 10px;
+
+        }
+    }
+    .section-a-propos_div--row_div--column-2{
         display: flex;
         flex-direction: row-reverse;
-        max-width: 70%;
-        padding: 0 4px;
+        justify-content: space-between;
+        p{
+            padding: 10px;
+            text-align: justify; /* For Edge */
+            -moz-text-align-last: right; /* For Firefox prior 58.0 */
+             text-align-last: right;
+        }
     }
 }
