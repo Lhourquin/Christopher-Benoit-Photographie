@@ -2,45 +2,45 @@
 @import './../abstract/variables';
 //general
 body{
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 h1{
-    text-align: center;
-    font-family: $font-logo;
-    font-size: 3rem;
+	text-align: center;
+	font-family: $font-logo;
+	font-size: 3rem;
 }
 .header__a__h2--logo{
-    font-family: $font-logo;
-    font-size: 2.5rem;
-    text-align:center;
+	font-family: $font-logo;
+	font-size: 2.5rem;
+	text-align:center;
 }
 
 h3{
-    font-size: 1.3rem;
+	font-size: 1.3rem;
 }
 
 p{
-    font-size: 0.8rem;
+	font-size: 0.8rem;
 }
 //home page 
 .section-index_h1{
-    font-size: 3.5rem;
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding:10px;
+	font-size: 3.5rem;
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding:10px;
 }
 .section-index_p{
-    font-size: 1rem;
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding:5px;
+	font-size: 1rem;
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding:5px;
 }
 .section-index_button_a{
-  color: white;
-  display: flex;
-    justify-content: center;
-    padding:5px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding:5px;
 }

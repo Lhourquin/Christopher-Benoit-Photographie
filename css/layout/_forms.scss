@@ -1,21 +1,21 @@
 //FORMS
 form{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 600px;
-    width: 750px;
-    align-self: center;
-    #nom, #prenom,  #mail{
-        border: 1px solid black;
-        height: 35px;
-    }
-    #message{
-        border: 1px solid black;
-        height: 200px;
-    }
-    #submit{
-        height: 40px;
-        cursor: pointer;
-    }
-    }
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 600px;
+	width: 750px;
+	align-self: center;
+	#nom, #prenom,  #mail{
+		border: 1px solid black;
+		height: 35px;
+	}
+	#message{
+		border: 1px solid black;
+		height: 200px;
+	}
+	#submit{
+		height: 40px;
+		cursor: pointer;
+	}
+}
