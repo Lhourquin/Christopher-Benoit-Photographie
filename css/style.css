@@ -29,7 +29,7 @@ h1 {
 @media (min-width: 1050px) {
   .header__a__h2--logo {
     display: none; } }
-@media (min-width: 1500px) {
+@media (min-width: 2000px) {
   .header__a__h2--logo {
     display: none; } }
 
@@ -45,7 +45,7 @@ h1 {
     font-family: "Parisienne", cursive;
     font-size: 2.5rem;
     text-align: center; } }
-@media (min-width: 1500px) {
+@media (min-width: 2000px) {
   .header__nav__a__h2--logo {
     display: inline;
     font-family: "Parisienne", cursive;
@@ -149,7 +149,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-around; } }
-@media (min-width: 1500px) {
+@media (min-width: 2000px) {
   nav {
     width: 25%;
     position: fixed;
