@@ -1,12 +1,25 @@
 //GRID
 //grid for body
+@import '../abstract/mixins';
 .body--row{
-	display: flex;
+	@include sm  {
+		display: block;
+	
+	}
+	@include md {
+		display: flex;
+		flex-direction: column;
+	
+	}
+	@include lg {
+		display: flex;
+		flex-direction: row;
 	.body--row__header--column{
 		width: 25%;
 	}
 	.body--row__div--main--column{
 		width: 75%;
+	}
 	}
 }
 

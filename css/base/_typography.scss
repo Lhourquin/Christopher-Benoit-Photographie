@@ -11,9 +11,44 @@ h1{
 	font-size: 3rem;
 }
 .header__a__h2--logo{
-	font-family: $font-logo;
-	font-size: 2.5rem;
-	text-align:center;
+	@include sm {
+		font-family: $font-logo;
+		font-size: 2rem;
+		text-align:center;
+	}
+	
+	@include md {
+		font-family: $font-logo;
+		font-size: 2.5rem;
+		text-align:center;
+	}
+	
+	@include lg {
+		display: none;
+	}
+	@include xl {
+		display: none;
+	}
+}
+.header__nav__a__h2--logo{
+	@include sm {
+		display : none;
+	}
+	@include md {
+		display: none;
+	}
+	@include lg{
+		display: inline;
+		font-family: $font-logo;
+		font-size: 2.5rem;
+		text-align:center;
+	}
+	@include xl{
+		display: inline;
+		font-family: $font-logo;
+		font-size: 3.5rem;
+		text-align:center;
+	}
 }
 
 h3{
