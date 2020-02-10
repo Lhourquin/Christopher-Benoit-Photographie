@@ -1,14 +1,16 @@
 //NAVIGATION
 @import '../abstract/mixins';
 nav{
+	//small screen
 	@include sm{
 		display: flex;
 		flex-direction: column;
 		height: 100vh;
 		justify-content: space-evenly;
-	
+
 	}
 
+	//medium screen
 	@include md {
 		display: flex;
 		flex-direction: column;
@@ -16,6 +18,7 @@ nav{
 		justify-content: space-between;
 	}
 
+	//large screen
 	@include lg{
 		width: 25%;
 		position:fixed;
@@ -24,6 +27,7 @@ nav{
 		justify-content: space-around;
 	}
 
+	//large extra large screen
 	@include xl{
 		width: 25%;
 		position:fixed;
@@ -31,55 +35,77 @@ nav{
 		flex-direction: column;
 		justify-content: space-around;
 	}
-	
+
+
+	//Link of nav for h2 (Logo)
 	.nav__a__h2{
+
+		//large screen
 		@include lg{
 			text-align: center;
 		}
 	}
+
+	//Top of the nav
 	.nav-header{
+
+		//small screen
 		@include sm {
 			display: flex;
-    flex-direction: column;
-    text-align: center;
+			flex-direction: column;
+			text-align: center;
 		}
+
+		//medium screen
 		@include md{
 			display: flex;
-    flex-direction: column;
-    text-align: center;
+			flex-direction: column;
+			text-align: center;
 		}
+
+		//large screen
 		@include lg {
 			display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 2em;
+			flex-direction: column;
+			text-align: center;
+			margin: 2em;
 		}
-	
+
+		//Link on nav for select page
 		a{
+			//small screen
 			@include sm {
 				font-size: 1.2rem;
 				margin-bottom: 79px;
 			}
 
+			//medium screen
 			@include md{
 				font-size: 1.5rem;
 				margin-bottom: 50px;
 			}
 
+
+			//large screen
 			@include lg{
 				font-size: 1.5rem;
 				margin-bottom: 74px;
 			}
-			@include lg{
+
+			//extra large screen
+			@include xl{
 				font-size: 2rem;
 				margin-bottom: 74px;
 			}
 		}
-			
-			
+
+
 	}
-	
+
+	//footer of the nav
 	.nav-footer{
+
+		//small screen 
 		@include sm{
 			display: flex;
 			flex-direction: column;
@@ -88,14 +114,16 @@ nav{
 			padding: 55px;
 		}
 
+		//medium screen
 		@include md{
-			    display: flex;
-    flex-direction: column;
-    /* text-align: center; */
-    /* justify-content: space-evenly; */
-    padding: 55px;
+			display: flex;
+			flex-direction: column;
+			/* text-align: center; */
+			/* justify-content: space-evenly; */
+			padding: 55px;
 		}
-		
+
+		//large screen
 		@include lg{
 			display: flex;
 			flex-direction: column;
@@ -103,41 +131,56 @@ nav{
 			justify-content: space-evenly;
 			margin: -3em;
 		}
-		
+
+		//block on footer for the phone number and icon
 		.nav-footer__div--phone{
+
+			//small screen
 			@include sm {
 				display: flex;
 				justify-content: space-evenly;
 				margin: 10px;	
 			}
+
+			//medium screen
 			@include md{
-			    display: flex;
-    justify-content: space-evenly;
-    margin: 10px;	
+				display: flex;
+				justify-content: space-evenly;
+				margin: 10px;	
 			}
+
+			//large screen
 			@include lg{
 				display: flex;
-			justify-content: space-evenly;
+				justify-content: space-evenly;
 			}
-			
+
 
 		}
+
+		//block on footer for the network link icon
 		.nav-footer__div--network{
+
+			//small screen
 			@include sm{
 				display: flex;
 				justify-content: space-evenly;
 				margin: 10px;
 			}
+
+			//medium screen
 			@include md{
 				display: flex;
 				justify-content: space-evenly;
 				margin: 10px;
 			}
+
+			//large screen
 			@include lg{
 				display: flex;
-			justify-content: space-evenly;
+				justify-content: space-evenly;
 			}
-			
+
 
 		}
 	}

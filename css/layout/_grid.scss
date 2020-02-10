@@ -1,25 +1,34 @@
 //GRID
-//grid for body
 @import '../abstract/mixins';
+
+//grid for body
 .body--row{
+
+	//small screen
 	@include sm  {
 		display: block;
-	
+
 	}
+
+	//medium screen
 	@include md {
 		display: flex;
 		flex-direction: column;
-	
+
 	}
+
+	//large screen
 	@include lg {
 		display: flex;
 		flex-direction: row;
-	.body--row__header--column{
-		width: 25%;
-	}
-	.body--row__div--main--column{
-		width: 75%;
-	}
+
+		//column for body
+		.body--row__header--column{
+			width: 25%;
+		}
+		.body--row__div--main--column{
+			width: 75%;
+		}
 	}
 }
 
@@ -34,7 +43,7 @@
 	}
 }
 
-//prstation grid page
+//prestation grid page
 .section-prestation_div--row{
 	display: flex;
 	justify-content: space-between;

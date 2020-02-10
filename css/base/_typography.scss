@@ -1,6 +1,7 @@
 //Typography rules
 @import './../abstract/variables';
-//general
+
+//General
 body{
 	font-size: 1rem;
 }
@@ -10,46 +11,6 @@ h1{
 	font-family: $font-logo;
 	font-size: 3rem;
 }
-.header__a__h2--logo{
-	@include sm {
-		font-family: $font-logo;
-		font-size: 2rem;
-		text-align:center;
-	}
-	
-	@include md {
-		font-family: $font-logo;
-		font-size: 2.5rem;
-		text-align:center;
-	}
-	
-	@include lg {
-		display: none;
-	}
-	@include xl {
-		display: none;
-	}
-}
-.header__nav__a__h2--logo{
-	@include sm {
-		display : none;
-	}
-	@include md {
-		display: none;
-	}
-	@include lg{
-		display: inline;
-		font-family: $font-logo;
-		font-size: 2.5rem;
-		text-align:center;
-	}
-	@include xl{
-		display: inline;
-		font-family: $font-logo;
-		font-size: 3.5rem;
-		text-align:center;
-	}
-}
 
 h3{
 	font-size: 1.3rem;
@@ -58,6 +19,63 @@ h3{
 p{
 	font-size: 0.8rem;
 }
+
+//Logo
+.header__a__h2--logo{
+
+	//small screen
+	@include sm {
+		font-family: $font-logo;
+		font-size: 2rem;
+		text-align:center;
+	}
+
+	//medium screen
+	@include md {
+		font-family: $font-logo;
+		font-size: 2.5rem;
+		text-align:center;
+	}
+
+	//large screen
+	@include lg {
+		display: none;
+	}
+
+	//extra large screen
+	@include xl {
+		display: none;
+	}
+}
+
+.header__nav__a__h2--logo{
+	//small screen
+	@include sm {
+		display : none;
+	}
+
+	//medium screen
+	@include md {
+		display: none;
+	}
+
+	//large screen
+	@include lg{
+		display: inline;
+		font-family: $font-logo;
+		font-size: 2.5rem;
+		text-align:center;
+	}
+
+	//extra large screen
+	@include xl{
+		display: inline;
+		font-family: $font-logo;
+		font-size: 3.5rem;
+		text-align:center;
+	}
+}
+
 //home page 
 .section-index_h1{
 	font-size: 3.5rem;
