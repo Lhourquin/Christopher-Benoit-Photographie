@@ -68,7 +68,7 @@ nav{
 			display: flex;
 			flex-direction: column;
 			text-align: center;
-			margin: 2em;
+		//	margin: 2em;
 		}
 
 		//Link on nav for select page
@@ -76,20 +76,20 @@ nav{
 			//small screen
 			@include sm {
 				font-size: 1.2rem;
-				margin-bottom: 79px;
+				margin-bottom: 40px;
 			}
 
 			//medium screen
 			@include md{
 				font-size: 1.5rem;
-				margin-bottom: 50px;
+				margin-bottom: 35px;
 			}
 
 
 			//large screen
 			@include lg{
-				font-size: 1.5rem;
-				margin-bottom: 74px;
+				font-size: 1.3rem;
+				margin-bottom: 35px;
 			}
 
 			//extra large screen
@@ -154,7 +154,9 @@ nav{
 				display: flex;
 				justify-content: space-evenly;
 			}
-
+			.nav-footer__a-phone{
+				font-size: 1.5rem;
+			}
 
 		}
 

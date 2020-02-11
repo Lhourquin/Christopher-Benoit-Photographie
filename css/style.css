@@ -48,7 +48,7 @@ h1 {
       text-align: center; } }
   @media (min-width: 600px) {
     .header__a__h2--logo {
-      font-size: 2.5rem;
+      font-size: 2rem;
       text-align: center; } }
   @media (min-width: 1050px) {
     .header__a__h2--logo {
@@ -68,12 +68,12 @@ h1 {
   @media (min-width: 1050px) {
     .header__nav__a__h2--logo {
       display: inline;
-      font-size: 2.5rem;
+      font-size: 2rem;
       text-align: center; } }
   @media (min-width: 2000px) {
     .header__nav__a__h2--logo {
       display: inline;
-      font-size: 3.5rem;
+      font-size: 3rem;
       text-align: center; } }
 
 @media (min-width: 320px) {
@@ -265,20 +265,19 @@ h1 {
   nav .nav-header {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin: 2em; } }
+    text-align: center; } }
 @media (min-width: 320px) {
   nav .nav-header a {
     font-size: 1.2rem;
-    margin-bottom: 79px; } }
+    margin-bottom: 40px; } }
 @media (min-width: 600px) {
   nav .nav-header a {
     font-size: 1.5rem;
-    margin-bottom: 50px; } }
+    margin-bottom: 35px; } }
 @media (min-width: 1050px) {
   nav .nav-header a {
-    font-size: 1.5rem;
-    margin-bottom: 74px; } }
+    font-size: 1.3rem;
+    margin-bottom: 35px; } }
 @media (min-width: 2000px) {
   nav .nav-header a {
     font-size: 2rem;
@@ -318,6 +317,8 @@ h1 {
   nav .nav-footer .nav-footer__div--phone {
     display: flex;
     justify-content: space-evenly; } }
+nav .nav-footer .nav-footer__div--phone .nav-footer__a-phone {
+  font-size: 1.5rem; }
 @media (min-width: 320px) {
   nav .nav-footer .nav-footer__div--network {
     display: flex;
@@ -415,6 +416,9 @@ footer {
   display: block;
   height: auto;
   margin-top: 8px; }
+
+.icon-font-awesome {
+  font-size: 1.9rem; }
 
 button {
   display: flex;
