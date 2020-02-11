@@ -1,8 +1,19 @@
 //Prestation specific styles
+@import '../abstract/mixins';
+
 .section-prestation{
+	//medium screen
+	@include md {
+		display:flex;
+	flex-direction: column;
+	}
+	//large screen
+	@include lg {
 	display:flex;
 	flex-direction: column;
-	height: 900px;
+	height: 900px;	
+	}
+	
 	h3{
 		text-align: center;
 	}

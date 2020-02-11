@@ -59,12 +59,53 @@
 }
 
 //prestation grid page
+
 .section-prestation_div--row{
-	display: flex;
-	justify-content: space-between;
+	//medium screen
+	@include md {
+		display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+	}
+	//large screen
+	@include lg {
+		display: flex;
+		justify-content: space-between;
+	}
+	//extra large
+	@include xl {
+
+	}
+
+	
 	.section-prestation_div--row_div--column{
-		max-width: 32%;
-		padding: 150px 4px 150px 4px ;
+		//small screen
+		@include sm {
+			max-width: 95%;
+			padding: 23px;
+		}
+		//medium screen
+		@include md {
+			max-width: 45%;
+			padding: 10px;
+		}
+		
+		//large screen
+		@include lg {
+			max-width: 32%;
+			padding: 150px 4px 150px 4px ;
+		}
+		
+	}
+	.section-prestation_div--row_div--column:nth-child(3){
+		//medium screen
+		@include md {
+			margin:auto;
+		}
+		//large screen
+		@include lg{
+			margin: 0;
+		}
 	}
 }
 //about us grid
