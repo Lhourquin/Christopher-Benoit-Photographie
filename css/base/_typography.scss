@@ -7,9 +7,25 @@ body{
 }
 
 h1{
+	//small screen
+	@include sm {
+		text-align: center;
+		font-family: $font-logo;
+		font-size: 2.5rem
+	}
+	//medium screen
+	@include md {
+		text-align: center;
+	font-family: $font-logo;
+	font-size: 2.5rem
+	}
+	//large screen
+	@include lg{ 
 	text-align: center;
 	font-family: $font-logo;
-	font-size: 3rem;
+	font-size: 3rem;	
+	}
+	
 }
 
 h3{
@@ -77,23 +93,83 @@ p{
 }
 
 //home page 
-.section-index_h1{
-	font-size: 3.5rem;
-	color: white;
-	display: flex;
-	justify-content: center;
-	padding:10px;
+
+//title of home-page with logo
+.section-index__div_h1{
+	//small screen
+	@include sm{
+		font-size: 2.5rem;
+		color: white;
+		display: flex;
+		justify-content: center;
+		padding:3px;
+	}
+	//medium screen
+	@include md {
+		font-size: 3rem;
+		color: white;
+		display: flex;
+		justify-content: center;
+		padding:5px;
+	}
+	//large screen
+	@include lg {
+		font-size: 3.5rem;
+		color: white;
+		display: flex;
+		justify-content: center;
+		padding:10px;
+	}
+	
 }
-.section-index_p{
-	font-size: 1rem;
-	color: white;
-	display: flex;
-	justify-content: center;
-	padding:5px;
+
+//litle paragrage below title
+.section-index__div_p{
+	//small screen
+	@include sm {
+		font-size: 0.8rem;
+		color: white;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		padding : 5px;
+	}
+	
+	//medium screen
+	@include md {
+		font-size: 1rem;
+		color: white;
+		display: flex;
+		justify-content: center;
+		padding:5px;
+	}
+	//large screen
+	@include lg {
+		font-size: 1.2rem;
+		color: white;
+		display: flex;
+		justify-content: center;
+		padding:5px;
+	}
+	
 }
+
+//button C-T-A to prestation or about us
 .section-index_button_a{
-	color: white;
-	display: flex;
-	justify-content: center;
-	padding:5px;
+	//small screen
+	@include sm {
+
+	}
+	//medium screen
+	@include md {
+
+	}
+	//large screen
+	@include lg {
+		color: white;
+		display: flex;
+		justify-content: center;
+		padding:5px;
+	}
+	
 }

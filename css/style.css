@@ -11,10 +11,27 @@
 body {
   font-size: 1rem; }
 
-h1 {
-  text-align: center;
-  font-family: "Parisienne", cursive;
-  font-size: 3rem; }
+@media (min-width: 320px) {
+  h1 {
+    text-align: center;
+    font-family: "Parisienne", cursive;
+    font-size: 2.5rem; } }
+@media (min-width: 600px) {
+  h1 {
+    text-align: center;
+    font-family: "Parisienne", cursive;
+    font-size: 2.5rem; } }
+@media (min-width: 1050px) {
+  h1 {
+    text-align: center;
+    font-family: "Parisienne", cursive;
+    font-size: 3rem; } }
+
+h3 {
+  font-size: 1.3rem; }
+
+p {
+  font-size: 0.8rem; }
 
 @media (min-width: 320px) {
   .header__a__h2--logo {
@@ -52,31 +69,57 @@ h1 {
     font-size: 3.5rem;
     text-align: center; } }
 
-h3 {
-  font-size: 1.3rem; }
+@media (min-width: 320px) {
+  .section-index__div_h1 {
+    font-size: 2.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 3px; } }
+@media (min-width: 600px) {
+  .section-index__div_h1 {
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px; } }
+@media (min-width: 1050px) {
+  .section-index__div_h1 {
+    font-size: 3.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px; } }
 
-p {
-  font-size: 0.8rem; }
+@media (min-width: 320px) {
+  .section-index__div_p {
+    font-size: 0.8rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px; } }
+@media (min-width: 600px) {
+  .section-index__div_p {
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px; } }
+@media (min-width: 1050px) {
+  .section-index__div_p {
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px; } }
 
-.section-index_h1 {
-  font-size: 3.5rem;
-  color: white;
-  display: flex;
-  justify-content: center;
-  padding: 10px; }
-
-.section-index_p {
-  font-size: 1rem;
-  color: white;
-  display: flex;
-  justify-content: center;
-  padding: 5px; }
-
-.section-index_button_a {
-  color: white;
-  display: flex;
-  justify-content: center;
-  padding: 5px; }
+@media (min-width: 1050px) {
+  .section-index_button_a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px; } }
 
 @media (min-width: 320px) {
   .body--row {
@@ -187,7 +230,7 @@ p {
   nav .nav-header a {
     font-size: 1.5rem;
     margin-bottom: 74px; } }
-@media (min-width: 1050px) {
+@media (min-width: 2000px) {
   nav .nav-header a {
     font-size: 2rem;
     margin-bottom: 74px; } }
@@ -318,12 +361,57 @@ to   { -webkit-transform: translateX(3px); }
 .section-index {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
   background-image: url(../../img/header-index.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  	/*}
+  	//medium screen
+  	@include md {
+  
+  	}
+  	//large screen
+  	@include lg {
+  		display: flex;
+  		flex-direction: column;
+  		height: 100vh;
+  		background: {
+  			image:url(../../img/header-index.jpg);
+  			repeat: no-repeat;
+  			position: center center;
+  			attachment:fixed;
+  			size:cover;
+  	
+  		}
+  	}*/ }
+  @media (min-width: 320px) {
+    .section-index .section-index__div {
+      margin: 25px; } }
+  @media (min-width: 600px) {
+    .section-index .section-index__div {
+      margin: 13px; } }
+  @media (min-width: 2000px) {
+    .section-index .section-index__div {
+      margin: 30px; } }
+  @media (min-width: 320px) {
+    .section-index .section-index_button {
+      margin: 50px;
+      padding: 10px; } }
+  @media (min-width: 600px) {
+    .section-index .section-index_button {
+      margin: 45px;
+      padding: 20px; } }
+  @media (min-width: 1050px) {
+    .section-index .section-index_button {
+      margin: 35px;
+      padding: 20px; } }
+  @media (min-width: 2000px) {
+    .section-index .section-index_button {
+      margin: 80px;
+      padding: 25px; } }
 
 .section-contact {
   display: flex;
