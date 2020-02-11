@@ -1,5 +1,6 @@
 //Typography rules
 @import './../abstract/variables';
+@import '../abstract/mixins';
 
 //General
 body{
@@ -7,48 +8,89 @@ body{
 }
 
 h1{
+	text-align: center;
+		font-family: $font-logo;
 	//small screen
 	@include sm {
-		text-align: center;
-		font-family: $font-logo;
-		font-size: 2.5rem
+	
+		font-size: 2.5rem;
+		padding: 10px;	
+
 	}
 	//medium screen
 	@include md {
-		text-align: center;
-	font-family: $font-logo;
-	font-size: 2.5rem
+	
+	font-size: 2.5rem;
+	padding: 10px;	
+
 	}
 	//large screen
 	@include lg{ 
-	text-align: center;
-	font-family: $font-logo;
-	font-size: 3rem;	
+
+	font-size: 3rem;
+	padding: 10px;	
 	}
-	
+	//extra large
+	@include xl {
+		
+		font-size: 4rem;
+    padding: 10px;
+    margin-top: 40px;
+	}
 }
 
 h3{
-	font-size: 1.3rem;
+	//small screen
+	@include sm {
+
+	}
+	//medium screen
+	@include md {
+
+	}
+	//lg screen
+	@include lg{
+		font-size: 1.3rem;
+
+	}
+	//extra large
+	@include xl {
+
+	}
 }
 
 p{
-	font-size: 0.8rem;
+	//small screen
+	@include sm {
+
+	}
+	//medium screen
+	@include md {
+
+	}
+	//large screan
+	@include lg {
+		font-size: 0.8rem;
+
+	}
+	//extra large
+	@include xl {
+
+	}
 }
 
 //Logo
 .header__a__h2--logo{
-
+font-family: $font-logo;
 	//small screen
 	@include sm {
-		font-family: $font-logo;
+		
 		font-size: 2rem;
 		text-align:center;
 	}
 
 	//medium screen
 	@include md {
-		font-family: $font-logo;
 		font-size: 2.5rem;
 		text-align:center;
 	}
@@ -65,6 +107,8 @@ p{
 }
 
 .header__nav__a__h2--logo{
+	font-family: $font-logo;
+
 	//small screen
 	@include sm {
 		display : none;
@@ -78,7 +122,6 @@ p{
 	//large screen
 	@include lg{
 		display: inline;
-		font-family: $font-logo;
 		font-size: 2.5rem;
 		text-align:center;
 	}
@@ -86,7 +129,6 @@ p{
 	//extra large screen
 	@include xl{
 		display: inline;
-		font-family: $font-logo;
 		font-size: 3.5rem;
 		text-align:center;
 	}

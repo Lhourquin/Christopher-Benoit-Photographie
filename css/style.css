@@ -11,63 +11,70 @@
 body {
   font-size: 1rem; }
 
-@media (min-width: 320px) {
-  h1 {
-    text-align: center;
-    font-family: "Parisienne", cursive;
-    font-size: 2.5rem; } }
-@media (min-width: 600px) {
-  h1 {
-    text-align: center;
-    font-family: "Parisienne", cursive;
-    font-size: 2.5rem; } }
+h1 {
+  text-align: center;
+  font-family: "Parisienne", cursive; }
+  @media (min-width: 320px) {
+    h1 {
+      font-size: 2.5rem;
+      padding: 10px; } }
+  @media (min-width: 600px) {
+    h1 {
+      font-size: 2.5rem;
+      padding: 10px; } }
+  @media (min-width: 1050px) {
+    h1 {
+      font-size: 3rem;
+      padding: 10px; } }
+  @media (min-width: 2000px) {
+    h1 {
+      font-size: 4rem;
+      padding: 10px;
+      margin-top: 40px; } }
+
 @media (min-width: 1050px) {
-  h1 {
-    text-align: center;
-    font-family: "Parisienne", cursive;
-    font-size: 3rem; } }
+  h3 {
+    font-size: 1.3rem; } }
 
-h3 {
-  font-size: 1.3rem; }
-
-p {
-  font-size: 0.8rem; }
-
-@media (min-width: 320px) {
-  .header__a__h2--logo {
-    font-family: "Parisienne", cursive;
-    font-size: 2rem;
-    text-align: center; } }
-@media (min-width: 600px) {
-  .header__a__h2--logo {
-    font-family: "Parisienne", cursive;
-    font-size: 2.5rem;
-    text-align: center; } }
 @media (min-width: 1050px) {
-  .header__a__h2--logo {
-    display: none; } }
-@media (min-width: 2000px) {
-  .header__a__h2--logo {
-    display: none; } }
+  p {
+    font-size: 0.8rem; } }
 
-@media (min-width: 320px) {
-  .header__nav__a__h2--logo {
-    display: none; } }
-@media (min-width: 600px) {
-  .header__nav__a__h2--logo {
-    display: none; } }
-@media (min-width: 1050px) {
-  .header__nav__a__h2--logo {
-    display: inline;
-    font-family: "Parisienne", cursive;
-    font-size: 2.5rem;
-    text-align: center; } }
-@media (min-width: 2000px) {
-  .header__nav__a__h2--logo {
-    display: inline;
-    font-family: "Parisienne", cursive;
-    font-size: 3.5rem;
-    text-align: center; } }
+.header__a__h2--logo {
+  font-family: "Parisienne", cursive; }
+  @media (min-width: 320px) {
+    .header__a__h2--logo {
+      font-size: 2rem;
+      text-align: center; } }
+  @media (min-width: 600px) {
+    .header__a__h2--logo {
+      font-size: 2.5rem;
+      text-align: center; } }
+  @media (min-width: 1050px) {
+    .header__a__h2--logo {
+      display: none; } }
+  @media (min-width: 2000px) {
+    .header__a__h2--logo {
+      display: none; } }
+
+.header__nav__a__h2--logo {
+  font-family: "Parisienne", cursive; }
+  @media (min-width: 320px) {
+    .header__nav__a__h2--logo {
+      display: none; } }
+  @media (min-width: 600px) {
+    .header__nav__a__h2--logo {
+      display: none; } }
+  @media (min-width: 1050px) {
+    .header__nav__a__h2--logo {
+      display: inline;
+      font-size: 2.5rem;
+      text-align: center; } }
+  @media (min-width: 2000px) {
+    .header__nav__a__h2--logo {
+      display: inline;
+      font-size: 3.5rem;
+      text-align: center; } }
 
 @media (min-width: 320px) {
   .section-index__div_h1 {
