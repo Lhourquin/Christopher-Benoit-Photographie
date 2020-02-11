@@ -9,33 +9,33 @@ body{
 
 h1{
 	text-align: center;
-		font-family: $font-logo;
+	font-family: $font-logo;
 	//small screen
 	@include sm {
-	
+
 		font-size: 2.5rem;
 		padding: 10px;	
 
 	}
 	//medium screen
 	@include md {
-	
-	font-size: 2.5rem;
-	padding: 10px;	
+
+		font-size: 2.5rem;
+		padding: 10px;	
 
 	}
 	//large screen
 	@include lg{ 
 
-	font-size: 3rem;
-	padding: 10px;	
+		font-size: 3rem;
+		padding: 10px;	
 	}
 	//extra large
 	@include xl {
-		
+
 		font-size: 4rem;
-    padding: 10px;
-    margin-top: 40px;
+		padding: 10px;
+		margin-top: 40px;
 	}
 }
 
@@ -81,10 +81,10 @@ p{
 
 //Logo
 .header__a__h2--logo{
-font-family: $font-logo;
+	font-family: $font-logo;
 	//small screen
 	@include sm {
-		
+
 		font-size: 2rem;
 		text-align:center;
 	}
@@ -162,7 +162,7 @@ font-family: $font-logo;
 		justify-content: center;
 		padding:10px;
 	}
-	
+
 }
 
 //litle paragrage below title
@@ -176,7 +176,7 @@ font-family: $font-logo;
 		text-align: center;
 		padding : 5px;
 	}
-	
+
 	//medium screen
 	@include md {
 		font-size: 1rem;
@@ -193,7 +193,7 @@ font-family: $font-logo;
 		justify-content: center;
 		padding:5px;
 	}
-	
+
 }
 
 //button C-T-A to prestation or about us
@@ -213,5 +213,5 @@ font-family: $font-logo;
 		justify-content: center;
 		padding:5px;
 	}
-	
+
 }

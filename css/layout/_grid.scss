@@ -34,7 +34,7 @@
 
 //gallery img home page
 .article-index--row{
-	
+
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 4px;
@@ -54,7 +54,7 @@
 			flex: 25%;
 			padding: 4px;
 		}
-		
+
 	}
 }
 
@@ -64,8 +64,8 @@
 	//medium screen
 	@include md {
 		display: flex;
-    justify-content: space-between;
-    flex-flow: wrap;
+		justify-content: space-between;
+		flex-flow: wrap;
 	}
 	//large screen
 	@include lg {
@@ -77,7 +77,7 @@
 
 	}
 
-	
+
 	.section-prestation_div--row_div--column{
 		//small screen
 		@include sm {
@@ -89,13 +89,13 @@
 			max-width: 45%;
 			padding: 10px;
 		}
-		
+
 		//large screen
 		@include lg {
 			max-width: 32%;
 			padding: 150px 4px 150px 4px ;
 		}
-		
+
 	}
 	.section-prestation_div--row_div--column:nth-child(3){
 		//medium screen

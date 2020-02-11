@@ -2,15 +2,15 @@
 @import '../abstract/mixins';
 
 form{
-	
+
 	//small screen
 	@include sm {
 		display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 100vh;
-    width: 80vw;
-    align-self: center;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 100vh;
+		width: 80vw;
+		align-self: center;
 	}
 	//lagre screen
 	@include lg {
@@ -24,31 +24,31 @@ form{
 	//extra large
 	@include xl {
 		display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 790px;
-    width: 771px;
-	align-self: center;
-	margin-top: 120px;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 790px;
+		width: 771px;
+		align-self: center;
+		margin-top: 120px;
 	}
 	#nom, #prenom,  #mail{
 		//small screen
 		@include sm {
-		
-		border: 1px solid black;
-		height: 35px;
-			
+
+			border: 1px solid black;
+			height: 35px;
+
 		}
 		//large screen
 		@include lg {
 			border: 1px solid black;
 			height: 35px;
 		}
-	
+
 		//extra large 
 		@include xl {
 			border: 1px solid black;
-    		height: 55px;
+			height: 55px;
 		}
 	}
 	#message{
@@ -62,7 +62,7 @@ form{
 			border: 1px solid black;
 			height: 200px;
 		}
-	
+
 		//extra large
 		@include xl {
 			border: 1px solid black;
@@ -84,6 +84,6 @@ form{
 			height: 60px;
 			cursor: pointer;
 		}
-		
+
 	}
 }
