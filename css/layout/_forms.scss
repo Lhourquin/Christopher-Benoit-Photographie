@@ -1,21 +1,89 @@
 //FORMS
+@import '../abstract/mixins';
+
 form{
-	display:flex;
-	flex-direction: column;
-	justify-content: space-around;
-	height: 600px;
-	width: 750px;
+	
+	//small screen
+	@include sm {
+		display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    width: 80vw;
+    align-self: center;
+	}
+	//lagre screen
+	@include lg {
+		display:flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 600px;
+		width: 750px;
+		align-self: center;
+	}
+	//extra large
+	@include xl {
+		display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 790px;
+    width: 771px;
 	align-self: center;
+	margin-top: 120px;
+	}
 	#nom, #prenom,  #mail{
+		//small screen
+		@include sm {
+		
 		border: 1px solid black;
 		height: 35px;
+			
+		}
+		//large screen
+		@include lg {
+			border: 1px solid black;
+			height: 35px;
+		}
+	
+		//extra large 
+		@include xl {
+			border: 1px solid black;
+    		height: 55px;
+		}
 	}
 	#message{
-		border: 1px solid black;
-		height: 200px;
+		//small screen
+		@include sm {
+			border: 1px solid black;
+			height: 200px;
+		}
+		//large screen
+		@include lg {
+			border: 1px solid black;
+			height: 200px;
+		}
+	
+		//extra large
+		@include xl {
+			border: 1px solid black;
+			height: 230px;
+		}
 	}
 	#submit{
-		height: 40px;
-		cursor: pointer;
+		//small screen
+		@include sm {
+			height: 35px;
+		}
+		//large screen
+		@include lg {
+			height: 40px;
+			cursor: pointer;
+		}
+		//extra large
+		@include xl {
+			height: 60px;
+			cursor: pointer;
+		}
+		
 	}
 }
