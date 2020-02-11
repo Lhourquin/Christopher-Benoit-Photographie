@@ -111,12 +111,20 @@
 //about us grid
 
 .section-a-propos_div--row{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: 1000px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	
 	.section-a-propos_div--row_div--column-1{
 		display: flex;
+		//small screen
+		@include sm {
+			flex-direction: column;
+		}
+		//large screen
+		@include lg {
+			flex-direction: row;
+		}
 		p{
 			padding: 10px;
 
@@ -124,13 +132,26 @@
 	}
 	.section-a-propos_div--row_div--column-2{
 		display: flex;
-		flex-direction: row-reverse;
-		justify-content: space-between;
+		//small screen
+		@include sm {
+			flex-direction: column;
+		}
+		//large screen
+		@include lg {
+			flex-direction: row-reverse;
+			justify-content: space-between;
+		}
+		
 		p{
 			padding: 10px;
+
+			//large screen
+			@include lg {
 			text-align: justify; /* For Edge */
 			-moz-text-align-last: right; /* For Firefox prior 58.0 */
-			text-align-last: right;
+			text-align-last: right;	
+			}
+			
 		}
 	}
 }
