@@ -34,12 +34,27 @@
 
 //gallery img home page
 .article-index--row{
+	
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 4px;
 	.article-index_div--row--column{
-		flex: 25%;
-		padding: 4px;
+		//small screen
+		@include sm {
+			display:block;
+			padding:2px;
+		}
+		//medium screen
+		@include md {
+			flex: 35%;
+			padding: 4px;
+		}
+		//large screen
+		@include lg {
+			flex: 25%;
+			padding: 4px;
+		}
+		
 	}
 }
 
