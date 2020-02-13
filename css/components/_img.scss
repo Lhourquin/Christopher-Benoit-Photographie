@@ -1,0 +1,43 @@
+//Img
+@import '../abstract/mixins';
+
+//general
+img{
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin-top: 8px;
+	//padding: 10px;
+}
+//img of galery home page
+/*.article-index__img{
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin-top: 8px;
+}
+
+//img of prestation page
+.section-prestation__img{
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin-top: 8px;
+}
+*/
+//img of about us
+.section-a-propos__figure{
+	padding: 10px;
+}
+/*.section-a-propos__img{
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin-top: 8px;
+}*/
+
+//icon
+.icon-font-awesome{
+	font-size : 1.4rem;
+	
+}

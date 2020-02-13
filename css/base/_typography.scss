@@ -1,0 +1,237 @@
+//Typography rules
+@import './../abstract/variables';
+@import '../abstract/mixins';
+
+//General
+body{
+	font-size: 1rem;
+}
+
+h1{
+	text-align: center;
+	font-family: $font-title;
+	//small screen
+	@include sm {
+
+		font-size: 2.5rem;
+		padding: 10px;	
+
+	}
+	//medium screen
+	@include md {
+
+		font-size: 2.5rem;
+		padding: 10px;	
+
+	}
+	//large screen
+	@include lg{ 
+
+		font-size: 3rem;
+		padding: 10px;	
+	}
+	//extra large
+	@include xl {
+
+		font-size: 4rem;
+		padding: 10px;
+		margin-top: 40px;
+	}
+}
+
+h3{
+	font-family: $font-title;
+	//small screen
+	@include sm {
+
+	}
+	//medium screen
+	@include md {
+
+	}
+	//lg screen
+	@include lg{
+		font-size: 1.3rem;
+
+	}
+	//extra large
+	@include xl {
+
+	}
+}
+
+p{
+	//small screen
+	@include sm {
+
+	}
+	//medium screen
+	@include md {
+
+	}
+	//large screan
+	@include lg {
+		font-size: 0.8rem;
+
+	}
+	//extra large
+	@include xl {
+
+	}
+}
+a {
+	color: black;
+	text-decoration: none;
+	&:hover {
+     color:black; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+}
+
+hr{
+	margin: auto;
+	border: 1px solid white;
+}
+
+//Logo
+/*.header__a__h2--logo{
+	font-family: $font-title;
+	//small screen
+	@include sm {
+
+		font-size: 2rem;
+		text-align:center;
+	}
+
+	//medium screen
+	@include md {
+		font-size: 2rem;
+		text-align:center;
+	}
+
+	//large screen
+	@include lg {
+		display: none;
+	}
+
+	//extra large screen
+	@include xl {
+		display: none;
+	}
+}*/
+
+.header__nav__a__div__h2--logo{
+	font-family: $font-title;
+
+	//small screen
+	@include sm {
+		display: inline;
+		font-size: 1.5rem;
+		text-align:center;
+	}
+
+	//medium screen
+	@include md {
+		display: inline;
+		font-size: 2rem;
+		text-align:center;
+	}
+
+	//large screen
+	@include lg{
+		display: inline;
+		font-size: 2rem;
+		text-align:center;
+	}
+
+	//extra large screen
+	@include xl{
+		display: inline;
+		font-size: 3rem;
+		text-align:center;
+	}
+}
+
+//home page 
+
+//title of home-page with logo
+.section-index__div_h1{
+	//small screen
+	@include sm{
+		font-size: 2.5rem;
+		color: white;
+		display: flex;
+		justify-content: center;
+		padding:3px;
+	}
+	//medium screen
+	@include md {
+		font-size: 3rem;
+		color: white;
+		display: flex;
+		justify-content: center;
+		padding:5px;
+	}
+	//large screen
+	@include lg {
+		font-size: 3.5rem;
+		color: white;
+		display: flex;
+		justify-content: center;
+		padding:10px;
+	}
+
+}
+
+//litle paragrage below title
+.section-index__div_p{
+	//small screen
+	@include sm {
+		font-size: 0.8rem;
+		color: white;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		padding : 5px;
+	}
+
+	//medium screen
+	@include md {
+		font-size: 1rem;
+		color: white;
+		display: flex;
+		justify-content: center;
+		padding:5px;
+	}
+	//large screen
+	@include lg {
+		font-size: 1.2rem;
+		color: white;
+		display: flex;
+		justify-content: center;
+		padding-top:1rem;
+		letter-spacing: 2px;
+	}
+
+}
+
+//button C-T-A to prestation or about us
+.section-index_button_a{
+	//small screen
+	@include sm {
+
+	}
+	//medium screen
+	@include md {
+
+	}
+	//large screen
+	@include lg {
+		color: white;
+		display: flex;
+		justify-content: center;
+		padding:5px;
+	}
+
+}

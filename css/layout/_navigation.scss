@@ -1,0 +1,239 @@
+//NAVIGATION
+@import '../abstract/mixins';
+//header navigation
+.header__nav{
+	//small screen
+	@include sm{
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		justify-content: space-between;
+
+	}
+
+	//medium screen
+	@include md {
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		justify-content: space-between;
+	}
+
+	//large screen
+	@include lg{
+		width: 25%;
+		position:fixed;
+		display: flex;
+		flex-direction: column;
+		overflow: auto;
+		height: 90vh;
+	}
+
+	//large extra large screen
+	@include xl{
+		width: 25%;
+		position:fixed;
+		display: flex;
+		flex-direction: column;
+		overflow: auto;
+	}
+
+
+	//Link of nav for h2 (Logo)
+	.header__nav__a{
+		margin-bottom: 20px;
+		//large screen
+		@include lg{
+			text-align: center;
+		}
+
+		.header__nav__a__div{
+			text-align: center;
+			.header__nav__a__div__div--container{
+
+				//small screen
+				@include sm {
+					width: 175px;
+					margin: auto;
+				}
+
+				//meidum screen
+				@include md {
+					width: 235px;
+					margin: auto;
+				}
+
+				.header__nav__a__div__div--container__hr{
+					margin: 5px auto 5px auto;
+					border: 0.5px solid black;
+					
+					//large screen
+					@include lg {
+						width: 50%;
+
+					}
+			
+				}
+
+
+				.header__nav__a__div__div--container__p--logo--str{
+					letter-spacing: 2px;
+				
+				}
+			}
+			
+			.header__nav__a__div__p--logo{
+				font-family: 'Orbitron', sans-serif; 
+				text-align: center; 
+				font-size : 72px;
+			}
+
+			
+		}
+	}
+
+	//Top of the nav
+	.header__nav__div--header{
+
+		//small screen
+		@include sm {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		}
+
+		//medium screen
+		@include md{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		}
+
+		//large screen
+		@include lg {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		//	margin: 2em;
+		}
+
+		//Link on nav for select page
+		a{
+			//small screen
+			@include sm {
+				font-size: 1.2rem;
+				margin-bottom: 40px;
+			}
+
+			//medium screen
+			@include md{
+				font-size: 1.5rem;
+				margin-bottom: 35px;
+			}
+
+
+			//large screen
+			@include lg{
+				font-size: 1.3rem;
+				margin-bottom: 35px;
+			}
+
+			//extra large screen
+			@include xl{
+				font-size: 2rem;
+				margin-bottom: 74px;
+			}
+		}
+
+
+	}
+
+	//footer of the nav
+	.header__nav__div--footer{
+
+		//small screen 
+		@include sm{
+			display: flex;
+			flex-direction: column;
+			/* text-align: center; */
+			/* justify-content: space-evenly; */
+			padding: 55px;
+		}
+
+		//medium screen
+		@include md{
+			display: flex;
+			flex-direction: column;
+			/* text-align: center; */
+			/* justify-content: space-evenly; */
+			padding: 55px;
+		}
+
+		//large screen
+		@include lg{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			justify-content: space-evenly;
+			padding:0px;
+		}
+
+		//block on footer for the phone number and icon
+		.header__nav__div--footer__div--phone{
+
+			//small screen
+			@include sm {
+				display: flex;
+				justify-content: space-evenly;
+			//	margin: 10px;	
+			}
+
+			//medium screen
+			@include md{
+				display: flex;
+				justify-content: space-evenly;
+				margin: 10px;	
+			}
+
+			//large screen
+			@include lg{
+				display: flex;
+				justify-content: space-evenly;
+			}
+			.header__nav__div--footer__div--phone__a--phone{
+				
+				font-size: 1.4rem;;
+				
+				
+			}
+
+		}
+
+		//block on footer for the network link icon
+		.header__nav__div--footer__div--network{
+
+			//small screen
+			@include sm{
+				display: flex;
+				justify-content: space-evenly;
+				margin: 10px;
+			}
+
+			//medium screen
+			@include md{
+				display: flex;
+				justify-content: space-evenly;
+				margin: 10px;
+			}
+
+			//large screen
+			@include lg{
+				display: flex;
+				justify-content: space-evenly;
+			}
+
+
+		}
+	}
+
+}

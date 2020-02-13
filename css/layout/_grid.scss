@@ -1,0 +1,157 @@
+//GRID
+@import '../abstract/mixins';
+
+//grid for body
+.body--row{
+
+	//small screen
+	@include sm  {
+		display: block;
+
+	}
+
+	//medium screen
+	@include md {
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	//large screen
+	@include lg {
+		display: flex;
+		flex-direction: row;
+
+		//column for body
+		.body--row__header--column{
+			width: 25%;
+		}
+		.body--row__div--main--column{
+			width: 75%;
+		}
+	}
+}
+
+//gallery img home page
+.article-index--row{
+
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	.article-index_div--row--column{
+		//small screen
+		@include sm {
+			display:block;
+			padding:2px;
+		}
+		//medium screen
+		@include md {
+			flex: 35%;
+			padding: 4px;
+		}
+		//large screen
+		@include lg {
+			flex: 25%;
+			padding: 4px;
+		}
+
+	}
+}
+
+//prestation grid page
+
+.section-prestation_div--row{
+	//medium screen
+	@include md {
+		display: flex;
+		justify-content: space-between;
+		flex-flow: wrap;
+	}
+	//large screen
+	@include lg {
+		display: flex;
+		justify-content: space-between;
+	}
+	//extra large
+	@include xl {
+
+	}
+
+
+	.section-prestation_div--row_div--column{
+		//small screen
+		@include sm {
+			max-width: 95%;
+			padding: 23px;
+		}
+		//medium screen
+		@include md {
+			max-width: 45%;
+			padding: 10px;
+		}
+
+		//large screen
+		@include lg {
+			max-width: 32%;
+			padding: 150px 4px 150px 4px ;
+		}
+
+	}
+	.section-prestation_div--row_div--column:nth-child(3){
+		//medium screen
+		@include md {
+			margin:auto;
+		}
+		//large screen
+		@include lg{
+			margin: 0;
+		}
+	}
+}
+//about us grid
+
+.section-a-propos_div--row{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	
+	.section-a-propos_div--row_div--column-1{
+		display: flex;
+		//small screen
+		@include sm {
+			flex-direction: column;
+		}
+		//large screen
+		@include lg {
+			flex-direction: row;
+		}
+		p{
+			padding: 10px;
+
+		}
+	}
+	.section-a-propos_div--row_div--column-2{
+		display: flex;
+		//small screen
+		@include sm {
+			flex-direction: column;
+		}
+		//large screen
+		@include lg {
+			flex-direction: row-reverse;
+			justify-content: space-between;
+		}
+		
+		p{
+			padding: 10px;
+
+			//large screen
+			@include lg {
+			text-align: justify; /* For Edge */
+			-moz-text-align-last: right; /* For Firefox prior 58.0 */
+			text-align-last: right;	
+			}
+			
+		}
+	}
+}
