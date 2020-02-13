@@ -249,17 +249,20 @@ hr {
           /* For Firefox prior 58.0 */
           text-align-last: right; } }
 
+header {
+  height: 900px; }
+
 @media (min-width: 320px) {
   .header__nav {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    justify-content: space-evenly; } }
+    justify-content: space-between; } }
 @media (min-width: 600px) {
   .header__nav {
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
     justify-content: space-between; } }
 @media (min-width: 1050px) {
   .header__nav {
@@ -267,39 +270,42 @@ hr {
     position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: space-around; } }
+    overflow: auto;
+    height: 90vh; } }
 @media (min-width: 2000px) {
   .header__nav {
     width: 25%;
     position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: space-around; } }
-@media (min-width: 1050px) {
-  .header__nav .header__nav__a {
-    text-align: center; } }
-.header__nav .header__nav__a .header__nav__a__div {
-  text-align: center; }
-  @media (min-width: 320px) {
-    .header__nav .header__nav__a .header__nav__a__div .header__nav__a__div__div--container {
-      width: 175px;
-      margin: auto; } }
-  @media (min-width: 600px) {
-    .header__nav .header__nav__a .header__nav__a__div .header__nav__a__div__div--container {
-      width: 235px;
-      margin: auto; } }
-  .header__nav .header__nav__a .header__nav__a__div .header__nav__a__div__div--container .header__nav__a__div__div--container__hr {
-    margin: 5px auto 5px auto;
-    border: 0.5px solid black; }
-    @media (min-width: 1050px) {
-      .header__nav .header__nav__a .header__nav__a__div .header__nav__a__div__div--container .header__nav__a__div__div--container__hr {
-        width: 50%; } }
-  .header__nav .header__nav__a .header__nav__a__div .header__nav__a__div__p--logo {
-    font-family: 'Orbitron', sans-serif;
-    text-align: center;
-    font-size: 72px; }
-  .header__nav .header__nav__a .header__nav__a__div .header__nav__a__div__p--logo--str {
-    letter-spacing: 2px; }
+    overflow: auto; } }
+.header__nav .header__nav__a {
+  margin-bottom: 20px; }
+  @media (min-width: 1050px) {
+    .header__nav .header__nav__a {
+      text-align: center; } }
+  .header__nav .header__nav__a .header__nav__a__div {
+    text-align: center; }
+    @media (min-width: 320px) {
+      .header__nav .header__nav__a .header__nav__a__div .header__nav__a__div__div--container {
+        width: 175px;
+        margin: auto; } }
+    @media (min-width: 600px) {
+      .header__nav .header__nav__a .header__nav__a__div .header__nav__a__div__div--container {
+        width: 235px;
+        margin: auto; } }
+    .header__nav .header__nav__a .header__nav__a__div .header__nav__a__div__div--container .header__nav__a__div__div--container__hr {
+      margin: 5px auto 5px auto;
+      border: 0.5px solid black; }
+      @media (min-width: 1050px) {
+        .header__nav .header__nav__a .header__nav__a__div .header__nav__a__div__div--container .header__nav__a__div__div--container__hr {
+          width: 50%; } }
+    .header__nav .header__nav__a .header__nav__a__div .header__nav__a__div__div--container .header__nav__a__div__div--container__p--logo--str {
+      letter-spacing: 2px; }
+    .header__nav .header__nav__a .header__nav__a__div .header__nav__a__div__p--logo {
+      font-family: 'Orbitron', sans-serif;
+      text-align: center;
+      font-size: 72px; }
 @media (min-width: 320px) {
   .header__nav .header__nav__div--header {
     display: flex;
@@ -351,7 +357,7 @@ hr {
     flex-direction: column;
     text-align: center;
     justify-content: space-evenly;
-    margin: -3em; } }
+    padding: 0px; } }
 @media (min-width: 320px) {
   .header__nav .header__nav__div--footer .header__nav__div--footer__div--phone {
     display: flex;
@@ -445,7 +451,7 @@ hr {
 
 footer {
   text-align: center;
-  padding: 10px; }
+  padding: 35px; }
 
 img {
   max-width: 100%;

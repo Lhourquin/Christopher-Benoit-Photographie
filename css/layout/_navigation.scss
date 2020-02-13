@@ -7,7 +7,7 @@
 		display: flex;
 		flex-direction: column;
 		height: 100vh;
-		justify-content: space-evenly;
+		justify-content: space-between;
 
 	}
 
@@ -15,7 +15,7 @@
 	@include md {
 		display: flex;
 		flex-direction: column;
-		height: 90vh;
+		height: 100vh;
 		justify-content: space-between;
 	}
 
@@ -25,7 +25,8 @@
 		position:fixed;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
+		overflow: auto;
+		height: 90vh;
 	}
 
 	//large extra large screen
@@ -34,13 +35,13 @@
 		position:fixed;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
+		overflow: auto;
 	}
 
 
 	//Link of nav for h2 (Logo)
 	.header__nav__a{
-
+		margin-bottom: 20px;
 		//large screen
 		@include lg{
 			text-align: center;
@@ -74,6 +75,11 @@
 			
 				}
 
+
+				.header__nav__a__div__div--container__p--logo--str{
+					letter-spacing: 2px;
+				
+				}
 			}
 			
 			.header__nav__a__div__p--logo{
@@ -82,9 +88,7 @@
 				font-size : 72px;
 			}
 
-			.header__nav__a__div__p--logo--str{
-				letter-spacing: 2px;
-			}
+			
 		}
 	}
 
@@ -171,7 +175,7 @@
 			flex-direction: column;
 			text-align: center;
 			justify-content: space-evenly;
-			margin: -3em;
+			padding:0px;
 		}
 
 		//block on footer for the phone number and icon
