@@ -9,7 +9,7 @@ body{
 
 h1{
 	text-align: center;
-	font-family: $font-logo;
+	font-family: $font-title;
 	//small screen
 	@include sm {
 
@@ -40,6 +40,7 @@ h1{
 }
 
 h3{
+	font-family: $font-title;
 	//small screen
 	@include sm {
 
@@ -81,7 +82,7 @@ p{
 
 //Logo
 .header__a__h2--logo{
-	font-family: $font-logo;
+	font-family: $font-title;
 	//small screen
 	@include sm {
 
@@ -107,7 +108,7 @@ p{
 }
 
 .header__nav__a__h2--logo{
-	font-family: $font-logo;
+	font-family: $font-title;
 
 	//small screen
 	@include sm {
