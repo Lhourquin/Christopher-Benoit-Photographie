@@ -79,9 +79,23 @@ p{
 
 	}
 }
+a {
+	color: black;
+	text-decoration: none;
+	&:hover {
+     color:black; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+}
+
+hr{
+	margin: auto;
+	border: 1px solid white;
+}
 
 //Logo
-.header__a__h2--logo{
+/*.header__a__h2--logo{
 	font-family: $font-title;
 	//small screen
 	@include sm {
@@ -105,19 +119,23 @@ p{
 	@include xl {
 		display: none;
 	}
-}
+}*/
 
-.header__nav__a__h2--logo{
+.header__nav__a__div__h2--logo{
 	font-family: $font-title;
 
 	//small screen
 	@include sm {
-		display : none;
+		display: inline;
+		font-size: 1.5rem;
+		text-align:center;
 	}
 
 	//medium screen
 	@include md {
-		display: none;
+		display: inline;
+		font-size: 2rem;
+		text-align:center;
 	}
 
 	//large screen
@@ -192,7 +210,8 @@ p{
 		color: white;
 		display: flex;
 		justify-content: center;
-		padding:5px;
+		padding-top:1rem;
+		letter-spacing: 2px;
 	}
 
 }

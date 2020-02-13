@@ -1,6 +1,7 @@
 //NAVIGATION
 @import '../abstract/mixins';
-nav{
+//header navigation
+.header__nav{
 	//small screen
 	@include sm{
 		display: flex;
@@ -38,16 +39,57 @@ nav{
 
 
 	//Link of nav for h2 (Logo)
-	.nav__a__h2{
+	.header__nav__a{
 
 		//large screen
 		@include lg{
 			text-align: center;
 		}
+
+		.header__nav__a__div{
+			text-align: center;
+			.header__nav__a__div__div--container{
+
+				//small screen
+				@include sm {
+					width: 175px;
+					margin: auto;
+				}
+
+				//meidum screen
+				@include md {
+					width: 235px;
+					margin: auto;
+				}
+
+				.header__nav__a__div__div--container__hr{
+					margin: 5px auto 5px auto;
+					border: 0.5px solid black;
+					
+					//large screen
+					@include lg {
+						width: 50%;
+
+					}
+			
+				}
+
+			}
+			
+			.header__nav__a__div__p--logo{
+				font-family: 'Orbitron', sans-serif; 
+				text-align: center; 
+				font-size : 72px;
+			}
+
+			.header__nav__a__div__p--logo--str{
+				letter-spacing: 2px;
+			}
+		}
 	}
 
 	//Top of the nav
-	.nav-header{
+	.header__nav__div--header{
 
 		//small screen
 		@include sm {
@@ -103,7 +145,7 @@ nav{
 	}
 
 	//footer of the nav
-	.nav-footer{
+	.header__nav__div--footer{
 
 		//small screen 
 		@include sm{
@@ -133,7 +175,7 @@ nav{
 		}
 
 		//block on footer for the phone number and icon
-		.nav-footer__div--phone{
+		.header__nav__div--footer__div--phone{
 
 			//small screen
 			@include sm {
@@ -154,7 +196,7 @@ nav{
 				display: flex;
 				justify-content: space-evenly;
 			}
-			.nav-footer__a-phone{
+			.header__nav__div--footer__div--phone__a--phone{
 				
 				font-size: 1.4rem;;
 				
@@ -164,7 +206,7 @@ nav{
 		}
 
 		//block on footer for the network link icon
-		.nav-footer__div--network{
+		.header__nav__div--footer__div--network{
 
 			//small screen
 			@include sm{
