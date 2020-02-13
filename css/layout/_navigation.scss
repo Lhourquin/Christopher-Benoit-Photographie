@@ -139,7 +139,7 @@ nav{
 			@include sm {
 				display: flex;
 				justify-content: space-evenly;
-				margin: 10px;	
+			//	margin: 10px;	
 			}
 
 			//medium screen
@@ -155,7 +155,10 @@ nav{
 				justify-content: space-evenly;
 			}
 			.nav-footer__a-phone{
-				font-size: 1.5rem;
+				
+				font-size: 1.4rem;;
+				
+				
 			}
 
 		}

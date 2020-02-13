@@ -1,5 +1,5 @@
 //Img
-
+@import '../abstract/mixins';
 //img of galery home page
 .article-index__img{
 	max-width: 100%;
@@ -26,5 +26,6 @@
 
 //icon
 .icon-font-awesome{
-	font-size: 1.9rem;
+	font-size : 1.4rem;
+	
 }

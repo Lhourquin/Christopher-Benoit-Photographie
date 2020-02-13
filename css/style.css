@@ -306,8 +306,7 @@ h1 {
 @media (min-width: 320px) {
   nav .nav-footer .nav-footer__div--phone {
     display: flex;
-    justify-content: space-evenly;
-    margin: 10px; } }
+    justify-content: space-evenly; } }
 @media (min-width: 600px) {
   nav .nav-footer .nav-footer__div--phone {
     display: flex;
@@ -318,7 +317,7 @@ h1 {
     display: flex;
     justify-content: space-evenly; } }
 nav .nav-footer .nav-footer__div--phone .nav-footer__a-phone {
-  font-size: 1.5rem; }
+  font-size: 1.4rem; }
 @media (min-width: 320px) {
   nav .nav-footer .nav-footer__div--network {
     display: flex;
@@ -418,7 +417,7 @@ footer {
   margin-top: 8px; }
 
 .icon-font-awesome {
-  font-size: 1.9rem; }
+  font-size: 1.4rem; }
 
 button {
   display: flex;
@@ -513,7 +512,7 @@ to   { -webkit-transform: translateX(3px); }
 .section-contact {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  height: 1000px; }
 
 @media (min-width: 600px) {
   .section-prestation {
@@ -523,7 +522,7 @@ to   { -webkit-transform: translateX(3px); }
   .section-prestation {
     display: flex;
     flex-direction: column;
-    height: 900px; } }
+    height: 1000px; } }
 .section-prestation h3 {
   text-align: center; }
 .section-prestation p {
