@@ -1,3 +1,11 @@
+.displayNone {
+  display: none !important; }
+
+.close {
+  height: 42px;
+  display: flex;
+  flex-direction: row-reverse; }
+
 * {
   margin: 0;
   padding: 0;
@@ -494,6 +502,9 @@ button {
   align-self: center;
   color: white;
   transition: 0.2s; }
+
+#button-burger {
+  width: 2rem; }
 
 /*.arrow{
 min-width: 15rem;
