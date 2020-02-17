@@ -11,6 +11,8 @@ function mediaScreen (mq) {
         header.classList.add('close');
         nav.classList.add('displayNone');
         buttonBurger.classList.remove('displayNone');
+        checkThePage();
+
     }else{
         header.classList.remove('close');
         nav.classList.remove('displayNone');
@@ -30,7 +32,7 @@ function toggle (e) {
         header.classList.toggle('close');
         nav.classList.toggle('displayNone');
         main.classList.toggle('displayNone');
-        buttonBurger.classList.toggle('btnBlack');
+        buttonBurger.classList.toggle('btnWhite');
 
     }
 }
@@ -45,14 +47,15 @@ function checkThePage (){
 if (checkPage.length === 0 || checkPage === "/" || checkPage.match(/^\/?index/)){
 
     
-    if(!header.classList.contains('close')){
-        buttonBurger.classList.remove('btnWhite');
+    if(header.classList.contains('close')){
+        buttonBurger.classList.add('btnWhite');
     }/*else if(header.classList.contains('btnBlack')) {
         buttonBurger.classList.add('btnWhite');
 
     }*/
+}else if (checkPage.length === 0 || checkPage === "/" || checkPage.match(/^\/?contact/) || checkPage.match(/^\/?prestation/) || checkPage.match(/^\/?a-propos/)) {
+    buttonBurger.style.color = "black";
 }
 
 }
 
-checkThePage();
