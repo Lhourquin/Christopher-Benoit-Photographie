@@ -1,1 +1,17 @@
 //Sass functions
+//display none for toggle function 
+.displayNone{
+    display: none !important;
+}
+//close for the header
+.close {
+   // height: 42px;
+   // display: flex;
+    //flex-direction: row-reverse;
+    position: fixed;
+    //color: white;;
+}
+//change color of button for index nav
+.btnWhite {
+    color : white;
+}
