@@ -22,6 +22,7 @@ function toggle (e) {
     let target = e.target;
     
     if(target){
+        console.log('ok');
         header.classList.toggle('close');
         nav.classList.toggle('displayNone');
     }
