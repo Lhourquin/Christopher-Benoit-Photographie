@@ -44,7 +44,7 @@ buttonBurger.addEventListener('click', toggle);
 function checkThePage (){
     var checkPage = window.location.pathname;
 
-if (checkPage.length === 0 || checkPage === "/" || checkPage.match(/^\/?index/)){
+if (checkPage.length === 0 || checkPage === "/" || checkPage.match(/(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/igm)){
 
     
     if(header.classList.contains('close')){
