@@ -580,7 +580,7 @@ to   { -webkit-transform: translateX(3px); }
       flex-direction: column;
       justify-content: space-between;
       height: 100vh;
-      background-image: url(../../img/header-index.jpg);
+      background-image: url(./../img/header-index.jpg);
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: fixed;
