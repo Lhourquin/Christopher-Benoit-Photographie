@@ -54,12 +54,12 @@
 		.section-index_button{
 	//small screen
 			@include sm {
-			margin: 50px;
+			//margin: 50px;
 			padding: 10px;
 		}
 	//medium screen
 			@include md {
-			margin: 45px;
+		//	margin: 45px;
 			padding: 20px;
 		}
 	//large screen
@@ -84,6 +84,19 @@
 		@include lg {
 			width: 300px;
 		}
-	
+		.section-index__div__div__hr{
+			//small screen
+			@include sm {
+				width: 135px;
+			}
+			//medium screen
+			@include md {
+				width: 160px;
+			}
+			//lg screen
+			@include lg {
+				width: 225px;
+			}
+		}
 	}
 }

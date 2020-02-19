@@ -156,10 +156,29 @@ hr{
 //home page 
 
 //title of home-page with logo
+
+.section-index__div_p--logo{
+	//small screen
+	font-family: 'Orbitron', sans-serif; 
+	text-align: center; 
+	color: white;	
+
+	@include sm {
+		font-size : 62px; 
+	}
+	//medium screen
+	@include md {
+		font-size : 80px; 
+	}
+	//lg screen
+	@include lg {
+		font-size : 100px;
+	}
+}
 .section-index__div_h1{
 	//small screen
 	@include sm{
-		font-size: 2.5rem;
+		font-size: 1.5rem;
 		color: white;
 		display: flex;
 		justify-content: center;
@@ -167,7 +186,7 @@ hr{
 	}
 	//medium screen
 	@include md {
-		font-size: 3rem;
+		font-size: 1.7rem;
 		color: white;
 		display: flex;
 		justify-content: center;
@@ -185,7 +204,7 @@ hr{
 }
 
 //litle paragrage below title
-.section-index__div_p{
+.section-index__div__div__p{
 	//small screen
 	@include sm {
 		font-size: 0.8rem;
@@ -217,21 +236,34 @@ hr{
 }
 
 //button C-T-A to prestation or about us
-.section-index_button_a{
+.section-index_button{
 	//small screen
 	@include sm {
-
-	}
-	//medium screen
-	@include md {
-
-	}
-	//large screen
-	@include lg {
+		padding: 10px;
+		width: 135px;
+		height: 41px;
 		color: white;
-		display: flex;
-		justify-content: center;
-		padding:5px;
 	}
-
+	
+	.section-index_button_a{
+		//small screen
+		@include sm {
+			color: white;
+			text-decoration: none;
+			font-size: 13px;
+		}
+		//medium screen
+		@include md {
+	
+		}
+		//large screen
+		@include lg {
+			color: white;
+			display: flex;
+			justify-content: center;
+			padding:5px;
+		}
+	
+	}
 }
+
