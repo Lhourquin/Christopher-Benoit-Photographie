@@ -6,7 +6,7 @@
 	//@include sm {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
+		justify-content: center;
 		height: 100vh;
 		background: {
 			image:url(./../img/header-index.jpg);
@@ -20,11 +20,12 @@
 	//medium screen
 	@include md {
 
-	}
+	}*/
 	//large screen
 	@include lg {
 		display: flex;
 		flex-direction: column;
+		justify-content: space-between;
 		height: 100vh;
 		background: {
 			image:url(../../img/header-index.jpg);
@@ -34,7 +35,7 @@
 			size:cover;
 
 		}
-	}*/
+	}
 		.section-index__div{
 		//small screen
 			@include sm {
