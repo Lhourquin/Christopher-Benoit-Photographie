@@ -186,8 +186,7 @@ hr {
   .section-index_button .section-index_button_a {
     color: white;
     display: flex;
-    justify-content: center;
-    padding: 5px; } }
+    justify-content: center; } }
 
 @media (min-width: 320px) {
   .body--row {
@@ -522,12 +521,12 @@ img {
 
 button {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   background-color: black;
-  width: 15rem;
+  /* width: 15rem; */
   align-self: center;
-  color: white;
-  transition: 0.2s; }
+  /* color: white; 
+   transition: 0.2s;*/ }
 
 #button-burger {
   font-size: 1.5rem;
@@ -594,20 +593,21 @@ to   { -webkit-transform: translateX(3px); }
   @media (min-width: 2000px) {
     .section-index .section-index__div {
       margin: 30px; } }
-  @media (min-width: 320px) {
-    .section-index .section-index_button {
-      padding: 10px; } }
-  @media (min-width: 600px) {
-    .section-index .section-index_button {
-      padding: 20px; } }
-  @media (min-width: 1050px) {
-    .section-index .section-index_button {
-      margin: 35px;
-      padding: 20px; } }
-  @media (min-width: 2000px) {
-    .section-index .section-index_button {
-      margin: 80px;
-      padding: 25px; } }
+  .section-index .section-index_button {
+    /*		@include md {
+    	//	margin: 45px;
+    	//	padding: 20px;
+    	}*/ }
+    @media (min-width: 320px) {
+      .section-index .section-index_button {
+        padding: 10px; } }
+    @media (min-width: 1050px) {
+      .section-index .section-index_button {
+        margin: 35px; } }
+    @media (min-width: 2000px) {
+      .section-index .section-index_button {
+        margin: 80px;
+        padding: 25px; } }
   .section-index .section-index__div__div {
     margin: auto; }
     @media (min-width: 600px) {

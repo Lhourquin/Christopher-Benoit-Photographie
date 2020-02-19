@@ -58,14 +58,14 @@
 			padding: 10px;
 		}
 	//medium screen
-			@include md {
+	/*		@include md {
 		//	margin: 45px;
-			padding: 20px;
-		}
+		//	padding: 20px;
+		}*/
 	//large screen
 			@include lg {
 			margin: 35px;
-			padding: 20px;
+	//		padding: 20px;
 		}
 	//extra large
 			@include xl {
