@@ -24,6 +24,7 @@ function mediaScreen (mq) {
         header.classList.remove('close');
         nav.classList.remove('displayNone');
         buttonBurger.classList.add('displayNone');
+        main.classList.remove('displayNone');
     }
 }
 
