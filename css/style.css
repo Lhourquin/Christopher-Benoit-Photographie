@@ -332,7 +332,7 @@ header {
       border: 0.5px solid black; }
       @media (min-width: 1050px) {
         .header__nav .header__nav__a .header__nav__a__div .header__nav__a__div__div--container .header__nav__a__div__div--container__hr {
-          width: 50%; } }
+          width: 68%; } }
     .header__nav .header__nav__a .header__nav__a__div .header__nav__a__div__div--container .header__nav__a__div__div--container__p--logo--str {
       letter-spacing: 2px; }
     .header__nav .header__nav__a .header__nav__a__div .header__nav__a__div__p--logo {
@@ -531,6 +531,24 @@ button {
 #button-burger {
   font-size: 2rem;
   padding: 10px; }
+
+.section-index_button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer; }
+
+.section-index_button:hover {
+  background-color: #ffffff;
+  opacity: 0.4;
+  transition: 0.5s; }
+  .section-index_button:hover .section-index_button_a {
+    color: black; }
+  .section-index_button:hover .arrow {
+    color: black; }
 
 /*.arrow{
 min-width: 15rem;
