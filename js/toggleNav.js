@@ -54,3 +54,37 @@ function toggle (e) {
 }
 
 buttonBurger.addEventListener('click', toggle);
+
+//test cache
+
+let image = new Image();
+
+let img = document.getElementsByTagName('img');
+
+
+function notify_complete(){
+    console.log('The image has been loaded into the browser cache.');
+}
+
+function load_image(){
+  // call the notify_complete function when the image has loaded
+    image.onload = notify_complete;
+
+    // load the image
+    for(let i of img){
+        let src = i.src; 
+        image.src = src;
+        console.log(image.src);
+    }
+    
+}
+
+load_image();
+
+//check if img is cahed
+function is_cached(src) {
+    var image = new Image();
+    image.src = src;
+
+    return image.complete;
+}
