@@ -55,7 +55,7 @@ function toggle (e) {
 
 buttonBurger.addEventListener('click', toggle);
 
-//test cache
+/*test cache
 
 let image = new Image();
 
@@ -88,4 +88,4 @@ function is_cached(src) {
 
     return image.complete;
 }
-console.log('test gh page');
+console.log('test gh page');*/
