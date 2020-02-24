@@ -88,3 +88,4 @@ function is_cached(src) {
 
     return image.complete;
 }
+console.log('test gh page');
