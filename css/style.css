@@ -178,12 +178,12 @@ hr {
     height: 41px;
     color: white; } }
 @media (min-width: 320px) {
-  .section-index_button .section-index_button_a {
+  .section-index_button .section-index_button_span {
     color: white;
     text-decoration: none;
     font-size: 13px; } }
 @media (min-width: 1050px) {
-  .section-index_button .section-index_button_a {
+  .section-index_button .section-index_button_span {
     color: white;
     display: flex;
     justify-content: center; } }
@@ -545,7 +545,7 @@ button {
   background-color: #ffffff;
   opacity: 0.4;
   transition: 0.5s; }
-  .section-index_button:hover .section-index_button_a {
+  .section-index_button:hover .section-index_button_span {
     color: black; }
   .section-index_button:hover .arrow {
     color: black; }

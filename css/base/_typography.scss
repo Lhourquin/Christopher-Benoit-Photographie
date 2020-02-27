@@ -244,8 +244,9 @@ hr{
 		height: 41px;
 		color: white;
 	}
+
 	
-	.section-index_button_a{
+	.section-index_button_span{
 		//small screen
 		@include sm {
 			color: white;
@@ -263,6 +264,8 @@ hr{
 			justify-content: center;
 			//padding:5px;
 		}
+
+		
 	
 	}
 }
