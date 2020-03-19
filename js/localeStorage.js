@@ -1,1 +1,0 @@
-"use strict";export function localeStorage(t){for(let e of t)e.addEventListener("load",()=>{let t=document.createElement("canvas"),a=t.getContext("2d");t.width=e.width,t.height=e.height,a.drawImage(e,0,0,e.width,e.height);let o=t.toDataURL("image/jpg");try{localStorage.setItem("img",o)}catch(t){console.log("Storage failed: "+t)}},!1)}
