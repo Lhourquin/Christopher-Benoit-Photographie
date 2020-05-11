@@ -580,12 +580,34 @@ from { -webkit-transform: translateX(0); }
 to   { -webkit-transform: translateX(3px); }
 }
 }*/
+.backdrop {
+  z-index: 1000;
+  background-color: white;
+  opacity: 0.98;
+  transform: translateZ(0px);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.cross {
+  font-size: 45px;
+  color: black;
+  cursor: pointer;
+  float: left; }
+
+.display-img {
+  max-width: 100%;
+  display: block;
+  height: auto; }
+
 .section-index {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  background-image: url(./../img/header-index.jpg);
+  background-image: url(../../img/header-index.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
