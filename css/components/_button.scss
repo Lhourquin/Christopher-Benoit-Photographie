@@ -13,7 +13,11 @@ button{
 	font-size: 2rem;
 	padding: 10px;
 }
-.section-index_button{
+.section-index_a{
+    align-self: center;
+    margin : 35px;
+}
+.section-index_a_button{
     border-style: solid;
     border-width: 2px;
     border-color: rgb(255, 255, 255);
@@ -22,11 +26,11 @@ button{
     transition: 0.5s;
     cursor: pointer;
 }
-.section-index_button:hover{
+.section-index_a_button:hover{
     background-color: #ffffff;
     opacity: 0.4;
     transition: 0.5s;
-    .section-index_button_span{
+    .section-index_a_button_span{
         color : black;
     }
     .arrow{

@@ -236,7 +236,7 @@ hr{
 }
 
 //button C-T-A to prestation or about us
-.section-index_button{
+.section-index_a_button{
 	//small screen
 	@include sm {
 		padding: 10px;
@@ -246,7 +246,7 @@ hr{
 	}
 
 	
-	.section-index_button_span{
+	.section-index_a_button_span{
 		//small screen
 		@include sm {
 			color: white;
